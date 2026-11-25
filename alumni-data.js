@@ -634,14 +634,75 @@ const ALUMNI_DATA = [
   {
     "id": 22,
     "name": "Mr. Biju Thomas",
-    "position": "Mashreq Bank, Dubai, Senior Director & Head of Family Offices",
+    "position": "Senior Director & Head of Family Offices, Mashreq Bank, Dubai",
     "description": "MBA 1991 - 1993 / DA Awardee - 2017",
     "year": 2017,
     "batch": "1991 - 1993",
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/Mr.Biju-Thomas-2017-q3xq9mj1jg78v66hw0f5sohd2medxtwxc6p9xd3t5o.png",
     "sector": "Finance & Corporate Leadership",
     "decade": "1990s",
-    "company": "Senior Director & Head of Family Offices"
+    "company": "Mashreq Bank",
+    "profile": {
+      "about": "An alumnus of PSGIM (MBA 1991–1993), Mr. Biju Thomas is a distinguished international banking executive with over 30 years of management expertise across the Middle East, Asia-Pacific, and India. He serves as Senior Director & Head of Family Offices at Mashreq Bank, Dubai. Throughout his career, he has managed large corporate relationships, commercial banking, family offices, non-banking financial institutions (NBFI), global transaction banking (GTB), supply chain finance, and trade solutions across premier institutions including Mashreq, National Bank of Abu Dhabi (Hong Kong), Samba Financial Group (Saudi Arabia), and ICICI Bank.",
+      "experiences": [
+        {
+          "role": "Senior Director & Head of Family Offices",
+          "company": "Mashreq Bank",
+          "period": "Dec 2019 – Present",
+          "location": "Dubai, United Arab Emirates",
+          "url": "https://www.mashreqbank.com/"
+        },
+        {
+          "role": "Head of NBFI Origination",
+          "company": "Mashreq Bank",
+          "period": "Jan 2019 – Dec 2019",
+          "location": "Dubai, United Arab Emirates",
+          "url": "https://www.mashreqbank.com/"
+        },
+        {
+          "role": "Executive Director & GTB Head (Asia)",
+          "company": "National Bank of Abu Dhabi (now FAB)",
+          "period": "Jan 2016 – Jul 2017",
+          "location": "Hong Kong SAR",
+          "url": "https://www.bankfab.com/"
+        },
+        {
+          "role": "Executive Director – Corporate Trade Sales & Advisory",
+          "company": "National Bank of Abu Dhabi (now FAB)",
+          "period": "Jul 2014 – Jan 2016",
+          "location": "United Arab Emirates",
+          "url": "https://www.bankfab.com/"
+        },
+        {
+          "role": "Head – Trade Sales & Solutions",
+          "company": "Samba Financial Group (now SNB)",
+          "period": "May 2008 – Jul 2014",
+          "location": "Riyadh, Saudi Arabia",
+          "url": "https://www.snb.com/"
+        },
+        {
+          "role": "Business Head – Corporate Linked Business (South & East Zone)",
+          "company": "ICICI Bank",
+          "period": "Jan 2006 – Apr 2008",
+          "location": "India",
+          "url": "https://www.icicibank.com/"
+        },
+        {
+          "role": "Head – Corporate Banking (Kerala State)",
+          "company": "IDBI Bank",
+          "period": "2002 – 2006",
+          "location": "Kerala, India",
+          "url": "https://www.idbibank.in/"
+        },
+        {
+          "role": "Relationship Manager",
+          "company": "IndusInd Bank",
+          "period": "1996 – 2000",
+          "location": "India",
+          "url": "https://www.indusind.com/"
+        }
+      ]
+    }
   },
   {
     "id": 23,
