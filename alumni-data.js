@@ -1,5 +1,4 @@
-// PSG Institute of Management Alumni Association (PSGMAA)
-// Distinguished Alumni Dataset (2003 - 2026 Inception)
+// Auto-generated PSGIM Distinguished Alumni Data
 const ALUMNI_DATA = [
   {
     "id": 1,
@@ -23,7 +22,11 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/P-3-rtq5nbnxr32312izq41fgkxpdvqydl57gzrbyj9dgc.png",
     "sector": "Retail, FMCG & Textiles",
     "decade": "1990s",
-    "company": "RMKV"
+    "company": "RMKV",
+    "profile": {
+      "about": "With an engineering degree and a post-graduation in management from PSG, Mr. N. Viswanath is a Director at RmKV Group, a 90-year-old heritage silk sari brand with stores across Tirunelveli, Chennai, Coimbatore, Bangalore, and an online portal. He leads RmKV's ongoing innovation in colours, designs, and handwoven fabrics crafted by master weavers.",
+      "contribution": "Committed to societal benefits and weaver welfare, RmKV works closely at the grassroots weaver level to preserve traditional art and handloom heritage while fostering an employee-centric culture. Mr. Viswanath is also an active member of the Rotary Club, Tirunelveli West."
+    }
   },
   {
     "id": 3,
@@ -47,7 +50,11 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/P-1-rtq5jifi19u7y02bzgpwcjkenmjd5s0ea4ifw4wuos.png",
     "sector": "Retail, FMCG & Textiles",
     "decade": "1990s",
-    "company": "Johns Group of Companies"
+    "company": "Johns Group of Companies",
+    "profile": {
+      "about": "A third-generation entrepreneur from Alleppey, Mr. George Thayyil completed his MBA at PSG in 1993 and internationalized his family business, Johns Umbrella Mart, expanding into Russia, China, Sri Lanka, and the UAE. In 2000, he diversified into the automobile sector with a Honda Motorcycles and Scooters India (HMSI) dealership. He also established India's largest quality umbrella manufacturing unit in Shengottai, Tamil Nadu in 2008.",
+      "contribution": "An active member of social service organizations including Round Table India, Lions, and Rotary. Under his chairmanship, the Round Table of Alleppey won numerous awards for community service and club activities."
+    }
   },
   {
     "id": 5,
@@ -143,7 +150,12 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/JayaBalaji-rbvvg4cuepav0qt9fh6dy4ctnvgvev0avgn2brutek.png",
     "sector": "Public Service & Governance",
     "decade": "1990s",
-    "company": "Officer / Traffic / South Western Railway"
+    "company": "Officer / Traffic / South Western Railway",
+    "profile": {
+      "about": "A national-level tennis player and 2000 batch PSGIM alumnus, Mr. J. Jayabalaji cleared the Civil Services Examination in 2008 and joined the Indian Railway Accounts Service (IRAS), winning the 'Best Probationer Award' at NAIR, Vadodara. He serves as Assistant Financial Advisor in the Ministry of Railways.",
+      "coimbatoreConnect": "Coimbatore's status as one of the highest revenue-generating districts in Tamil Nadu is driven by the entrepreneurial spirit of its people. He attributes much of his success to this wonderful city and its kind-hearted people.",
+      "voiceForYouth": "Be clear about what you want in life and work cheerfully towards it. Play a sport, any sport — it helps."
+    }
   },
   {
     "id": 10,
@@ -167,7 +179,12 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/Gunasekaran-Krishnan-rbvvfznngj4fep036x593njioy41cdhn6tdmxe1s9o.png",
     "sector": "Technology & Digital",
     "decade": "1990s",
-    "company": "Ecaps Computer India Pvt. Ltd.,"
+    "company": "Ecaps Computer India Pvt. Ltd.,",
+    "profile": {
+      "about": "A first-generation entrepreneur from Vellore, Mr. Gunasekaran Krishnan pursued his B.Sc. Computer Science at PSGCT and a part-time MBA at PSGIM. In 1993, alongside three classmates and a capital of Rs. 60,000, he co-founded eCAPS Computer India Pvt. Ltd., growing it into a Rs. 45-crore leader in Computer Networking and Security with over 150 employees across 10+ locations and its own brand 'Netfox'.",
+      "contribution": "An active Rotarian and Chairman of 'Mentor a Child', which mentors school students from economically weaker families for six years through Plus-Two. He also served on the management committee of ISODA and represented India in Rotary's Group Study Exchange to South Korea.",
+      "voiceForYouth": "When you start a business, stay focused in it for at least a few years to gain an edge over competitors, and reinvest your earnings back into the business."
+    }
   },
   {
     "id": 12,
@@ -179,7 +196,12 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/Krishnan-Dandapani-rbvvg9zvjpikyel2ijm5d2xl86p2p1mow8jz7fmgd8.png",
     "sector": "Education & Academia",
     "decade": "1970s",
-    "company": "Florida International University"
+    "company": "Florida International University",
+    "profile": {
+      "about": "A 1977 PSGIM alumnus, Dr. Krishnan Dandapani earned his Ph.D. in Finance from Pennsylvania State University and has been Professor of Finance at Florida International University (FIU), Miami, for over 30 years. He is the Editor of the Journal of Emerging Financial Markets, author of multiple finance books, and recipient of Florida's Excellence in Research, Teaching, and Service Awards.",
+      "coimbatoreConnect": "Coimbatore's entrepreneurial flavour infuses an entrepreneurial spirit into your thinking, action, and work.",
+      "voiceForYouth": "At PSGIM you get the best education you need to succeed, and in Coimbatore you learn to be entrepreneurial. There is nothing one cannot achieve if we focus and work towards it — aim beyond the Moon, look at Mars and beyond."
+    }
   },
   {
     "id": 13,
@@ -191,7 +213,13 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/Prashanth-Subramanian-rbvvgp1al23645z82q46gz4yqcmy47aeaazqvv05lo.png",
     "sector": "Technology & Digital",
     "decade": "1990s",
-    "company": "Quadra systems India Private Limited"
+    "company": "Quadra systems India Private Limited",
+    "profile": {
+      "about": "Belonging to the 1998 PSGIM batch, Mr. S. Prashanth co-founded Quadrasystems.net (India) Pvt. Ltd. in 2000 alongside P. Nagaraj. Under their leadership, Quadra has become one of India's premier infrastructure software solutions providers, winning 31 global awards from Microsoft (including Worldwide Partner of the Year) and 19 national awards.",
+      "contribution": "Mr. Prashanth serves as Convenor of the IT panel of the Confederation of Indian Industry (CII) and Chairman of its flagship ICT event, while co-founder Nagaraj is a founding member of 'Vidiyal', a non-profit supporting the education of needy students.",
+      "coimbatoreConnect": "Innovative yet frugal thinking, a quest for excellence, and a passion for success are part of every Coimbatorean's DNA.",
+      "voiceForYouth": "Luck is simply being ready to grab an opportunity when it presents itself. Be passionate about what you believe in, focus on execution excellence, and build a loyal team of like-minded people."
+    }
   },
   {
     "id": 14,
@@ -203,7 +231,11 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/Rajesh-B.-LUND-rbvvhfcrwf3758wzt1hqeshvd5183q6vpx9cblx4rg.png",
     "sector": "Manufacturing & Infrastructure",
     "decade": "1980s",
-    "company": "Srivari Property Developers"
+    "company": "Srivari Property Developers",
+    "profile": {
+      "about": "An MBA graduate from PSG, Mr. Rajesh B. Lund joined Srivari Group of Companies in 1985 as a Director, leading business development, marketing, and financial services. His projects 'Srivari Vaibhav' and 'Srivari Ananyaa' earned FIVE STAR ratings from CRISIL. He has served as President of CREDAI (2014–2016) and panel member of CII Coimbatore Zone and Airports Authority of India.",
+      "contribution": "Actively involved in charitable trusts and educational institutions as Trustee & Honorary Secretary of Sindhi Samaj Charitable Trust, Honorary Secretary of Sindhi Vidhyalaya Matriculation School, and committee member of Cheshire Homes and RAAC. Awarded 'Sindhu Rathan' in 2012 for his service to society."
+    }
   },
   {
     "id": 15,
@@ -215,7 +247,11 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/Pushpalata-Pooranan-rbvvgwk03qdgp1oautd70x8nhflvts48zc7mq2p07w.png",
     "sector": "Education & Academia",
     "decade": "1990s",
-    "company": "Pushpalata Educational Centre"
+    "company": "Pushpalata Educational Centre",
+    "profile": {
+      "about": "Taking charge as Director and Correspondent of Pushpalata Educational Centre in Tirunelveli in 2003, Mrs. Pushpalata Pooranan expanded the institution from 271 students in one school to 3,712 students across four schools, founding Pushpalata Vidya Mandir (CBSE) in 2008 and Pushpalata British International School (Cambridge) in 2012.",
+      "contribution": "In 2012, she launched 'Mitra – Centre for Autism Children', the first school in Tirunelveli dedicated to children with Autism Spectrum Disorder, training them for National Open School examinations and mainstreaming them into society."
+    }
   },
   {
     "id": 16,
@@ -227,7 +263,11 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/Bhargav-Sundaram-q3gmupmma5slhhfg0xf1iw8gmj5eszfwzjkckkf13w.png",
     "sector": "Manufacturing & Infrastructure",
     "decade": "1980s",
-    "company": "Chennai"
+    "company": "Chennai",
+    "profile": {
+      "about": "Grandson of Enfield India founder Shri K. R. Sundaram Iyer, Mr. Bhargav Sundaram is the Chief Executive of Callidai Motor Works, India's largest manufacturer of powered and special wheelchairs and battery-operated mobility vehicles for persons with neurological and mobility disorders.",
+      "contribution": "A pioneer of social entrepreneurship since 1998, over 50% of his workforce (35 of 50+ employees) are differently-abled. He also founded the 'Wheelchair Trust of India' and organizes sports and cultural events for the physically challenged."
+    }
   },
   {
     "id": 17,
@@ -239,7 +279,10 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/Ranji-Cherian-q3gmtto3tskuiqpv7jlq64asffixj9x1j5du95qezg.png",
     "sector": "Media, Sports & Entertainment",
     "decade": "1980s",
-    "company": "Bengaluru"
+    "company": "Bengaluru",
+    "profile": {
+      "about": "An alumnus of PSG CAS and PSGIM, Mr. Ranji Cherian is President – South & East at DDB Mudra Group and a Director on the board of DDB Mudra Max. Earlier at JWT India (1993–2007), he led the team that won the global award at the Automotive GBU meet in Detroit (2005). At DDB Mudra, he turned around southern operations into a consistently high-profit region."
+    }
   },
   {
     "id": 18,
@@ -311,7 +354,10 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/Rama-Rao-q3gmquii6oi5r71il9a99vc8pi735s3n4f0hjm5aos.png",
     "sector": "Manufacturing & Infrastructure",
     "decade": "1980s",
-    "company": "Hyderabad"
+    "company": "Hyderabad",
+    "profile": {
+      "about": "A 1984 PSG MBA alumnus, Mr. M.S.P. Rama Rao began his career at Panyam Cements & Mineral Industries Ltd. and went on to become Managing Director of Konaseema Gas Power Ltd. (2000), CEO of VBC Fertilizers & Chemicals Ltd. (2008), and Director of Orissa Power Corporation Ltd. (2009). He also serves on the Governing Body of GITAM University and the Managing Committee of FAPCCI."
+    }
   },
   {
     "id": 24,
@@ -323,7 +369,11 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/Abdul-q3gmpusmyz59i0hedtufn4cq4v351a5ubi81b3m998.png",
     "sector": "Retail, FMCG & Textiles",
     "decade": "1980s",
-    "company": "Calicut"
+    "company": "Calicut",
+    "profile": {
+      "about": "Mr. V. Abdul Razak is the Managing Director of VKC Group of Companies, India's largest producer of PU footwear. Joining the family business after his MBA at PSGIM in 1992, he helped scale production from 600 pairs to 3.5 lakh pairs a day across 20+ units in five states, employing over 5,000 people with a turnover exceeding Rs. 1,100 crores.",
+      "contribution": "Through the 'VKC Charitable Foundation', the group runs two educational institutions providing free education, books, food, and uniforms. He has also served on the Senate of Cochin University of Science and Technology and as Chairman of the Confederation of Indian Footwear Industry (Kerala Region)."
+    }
   },
   {
     "id": 25,
@@ -335,7 +385,11 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/Settu-q3gmozrypfysuvqgeyfquu6ij5c0z9qp78p0gyw8yk.png",
     "sector": "Enterprise & Leadership",
     "decade": "1980s",
-    "company": "Coimbatore"
+    "company": "Coimbatore",
+    "profile": {
+      "about": "Securing First Rank with Distinction in his 1982 PSGIM MBA, Mr. M. Settu served Textool Company Ltd. for 10 years before founding Syndicate Exports Pvt. Ltd., exporting chemical and refractory products to over 100 countries. He is also Director General of Sree Saraswathi Thyagaraja College, Fellow of AIMA, former Senate Member of Bharathiar University, and author of two poetry books.",
+      "contribution": "Serves as Honorary Director and Management Advisor to numerous industries and educational trusts, and is an active member of CII, ICCI, CODISSIA, and Rotary. He also served as Chairman of the PSG Management Alumni Association for three years."
+    }
   },
   {
     "id": 26,
@@ -347,7 +401,11 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/Jayakumar-q3gmmhjghcj9wbdj1vfk7gy9i5osgbsguu2eeem1jw.png",
     "sector": "Manufacturing & Infrastructure",
     "decade": "1980s",
-    "company": "Ltd,Coimbatore"
+    "company": "Ltd,Coimbatore",
+    "profile": {
+      "about": "An alumnus of PSG CAS and PSGIM, Mr. Jayakumar Ramdass is Managing Director of Mahendra Submersible Pumps Pvt. Ltd. and Mahendra Spinning Mills Pvt. Ltd., Coimbatore, exporting pumps to 25 countries across 4 continents. He is Past President of SIEMA, Past Chairman of CII Coimbatore Zone, and helped bring ELCOT IT Park and direct international flights to Coimbatore.",
+      "contribution": "Former National President of Round Table India and Chairman of the Round Table India Foundation, funding community service projects across India. He serves on the Advisory Councils of PSGIM and several colleges, and is President of the Coimbatore District Tennis Association."
+    }
   },
   {
     "id": 27,
@@ -371,7 +429,11 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/Lakshminarayanaswamy-modified-q3b8emxzq57x4nfejlvd3u8g17mkc6mq8e32lxhx7g.png",
     "sector": "Manufacturing & Infrastructure",
     "decade": "1970s",
-    "company": "Suguna Group"
+    "company": "Suguna Group",
+    "profile": {
+      "about": "A 1981 MBA alumnus from PSG College of Technology, Mr. V. Lakshminarayanasamy is Managing Director of SUGUNA Group of Industries, a five-decade-old leader in electric motors and pumps exported across India, the Middle East, and SAARC countries. He has served as President of SIEMA, Vice President of ICCIC, and Chairman of the Board of Governors of NIFFT, Ranchi.",
+      "contribution": "Instrumental in establishing the Suguna Group of Educational Institutions in Coimbatore — including Suguna PIP School, Suguna Vidyanikethan (a free English-medium school for the economically weak), Suguna Polytechnic College, Suguna College of Engineering, and a community hospital."
+    }
   },
   {
     "id": 29,
@@ -383,7 +445,10 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/vk-jayachandran-q3apk53yhceslozahbo4a20befue5j1uy5fhpjicm4.jpg",
     "sector": "Manufacturing & Infrastructure",
     "decade": "Other",
-    "company": "Indian Oil Corporation"
+    "company": "Indian Oil Corporation",
+    "profile": {
+      "about": "Joining Indian Oil Corporation (IOCL) in March 1977 after his post-graduation from PSG, Mr. V. K. Jayachandran spent over three decades shaping IOCL's LPG and State Office operations across Tamil Nadu, Kerala, Karnataka, Gujarat, and Mumbai. He was adjudged IOCL's Best General Manager in 2005 and served as Executive Director."
+    }
   },
   {
     "id": 30,
@@ -395,7 +460,10 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/srinivasan-irs-q3apk2afwuaxmv3dxsg8kkpxma8aifqnxrh19pmj4s.jpg",
     "sector": "Public Service & Governance",
     "decade": "1980s",
-    "company": "Indian Audit and Accounts Department (CAG India)"
+    "company": "Indian Audit and Accounts Department (CAG India)",
+    "profile": {
+      "about": "A 1982 PSGIM MBA alumnus, Mr. Kesavan Srinivasan began his career at TCS before joining the Indian Audit & Accounts Service (C&AG). With nearly three decades of CXO-level government leadership, he served as Principal Accountant General for Tamil Nadu and Puducherry, Principal Director of the Audit Board for 30+ major PSUs, and spent 6 years as Expert/Advisor to the State Audit Institution of the Sultanate of Oman and the United Nations."
+    }
   },
   {
     "id": 31,
@@ -488,7 +556,10 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/radhakrishnan-q3apk0erj68czn648rmzfl70fihk31j79i62b5pbh8.jpg",
     "sector": "Public Service & Governance",
     "decade": "1990s",
-    "company": "Puducherry constituency"
+    "company": "Puducherry constituency",
+    "profile": {
+      "about": "Mr. R. Radhakrishnan is a Member of Parliament representing the Puducherry Lok Sabha constituency (elected in 2014). Earlier, he was twice elected to the Puducherry Legislative Assembly (2001, 2006), served as Chairman of the Pondicherry Slum Clearance Board (2001–2006), and served as Speaker of the Puducherry Assembly (2006–2011)."
+    }
   },
   {
     "id": 33,
@@ -500,7 +571,10 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/venkatesh-mysore-final-q3apk464aidia30nmt9hpk8ut1z0xty4m0s089jqsc.jpg",
     "sector": "Media, Sports & Entertainment",
     "decade": "1980s",
-    "company": "Kolkata Knight Riders (KKR) and REd Chillies Entertainment Pvt. Ltd"
+    "company": "Kolkata Knight Riders (KKR) and REd Chillies Entertainment Pvt. Ltd",
+    "profile": {
+      "about": "Mr. Venkatesh S. Mysore ('Venky') is the Chief Executive Officer of Red Chillies Entertainment Pvt. Ltd. and Managing Director of Kolkata Knight Riders (KKR), where he corporatised the franchise and made it profitable. With over 25 years in global insurance and finance, he previously served as Country Head of Sun Life Financial India and MD & CEO of MetLife India Insurance."
+    }
   },
   {
     "id": 34,
@@ -512,7 +586,10 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/kasi-q3apjxl8yo4i0ta7p8f3q3wmncvgfy80947lvbthzw.jpeg",
     "sector": "Manufacturing & Infrastructure",
     "decade": "1970s",
-    "company": "Seshasayee Paper and Boards Ltd.,"
+    "company": "Seshasayee Paper and Boards Ltd.,",
+    "profile": {
+      "about": "A Chemical Engineer (B.Tech., REC Tiruchi) with an MMS degree from University of Madras, Mr. K. S. Kasi Viswanathan is the Managing Director of Seshasayee Paper and Boards Ltd., bringing nearly 35 years of industrial experience in integrated paper mill management and project implementation. He is an active member of CII and has organized several PaperTech programmes."
+    }
   },
   {
     "id": 35,
@@ -524,7 +601,10 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/sailaja--q3apk1clq09nb94r3a1m02yh0wcxaqmxlmtjsfnxb0.jpg",
     "sector": "Finance & Corporate Leadership",
     "decade": "1980s",
-    "company": "Hyderabad"
+    "company": "Hyderabad",
+    "profile": {
+      "about": "An MBA graduate, Mrs. Sailaja Kiron is the Managing Director of Margadarsi Chit Fund (part of the Eenadu business house), scaling its turnover to Rs. 5,000 crores. She also leads 'Kalanjali', promoting Indian artisans and handicrafts since 1992, and is Director of the women's destination store 'Brisah' in Hyderabad."
+    }
   },
   {
     "id": 36,
@@ -536,10 +616,13 @@ const ALUMNI_DATA = [
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/thamaraikannan-q3apk38a3oc7yh20sauv52he7o3nq4ue9w4iqzl4yk.jpg",
     "sector": "Enterprise & Leadership",
     "decade": "1980s",
-    "company": "Additional Director General of Public"
+    "company": "Additional Director General of Public",
+    "profile": {
+      "about": "A 1985 PSG MBA alumnus, Mr. P. Thamaraikannan, IPS, joined the Police Service in 1986 and was inducted into the IPS in 1993. He served as Superintendent of Police in Coimbatore and Tiruchi, supervised the 1998 Coimbatore bomb blast case investigation, and served as Inspector General of Police (Administration) in Chennai. He holds a Master's in Applied Criminology from Cambridge University and has received the President's Medal for Gallantry, Meritorious Service, and Distinguished Service."
+    }
   }
 ];
 
-if (typeof module !== 'undefined' && module.exports) {
+if (typeof module !== 'undefined') {
   module.exports = ALUMNI_DATA;
 }
