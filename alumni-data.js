@@ -399,15 +399,84 @@ const ALUMNI_DATA = [
   },
   {
     "id": 31,
-    "name": "MR. JAGATHEESA PANDIAN",
-    "position": "Chief Engineer, Mettur Thermal Projects (TNED) Mettur Dam",
+    "name": "DR. D. J. PANDIAN, IAS",
+    "position": "Director General, New Development Bank (NDB) | Former Chief Secretary, Govt. of Gujarat",
     "description": "MBA 1978 - 1980 / DA Awardee - 2008",
     "year": 2008,
     "batch": "1978 - 1980",
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/Jagatheesa-Pandian-q3gmhx1p9ca3gk0gqebul4gljq7k1anfw7wfezdxss.png",
     "sector": "Public Service & Governance",
     "decade": "1970s",
-    "company": "Mettur Thermal Projects (TNED) Mettur Dam"
+    "company": "New Development Bank (NDB)",
+    "profile": {
+      "about": "Dr. D. J. Pandian (Dharmakkan Jagatheesa Pandian), IAS (1981 batch), is the Director General of the Indian Regional Office of the New Development Bank (NDB), leading high-impact sustainable development projects in India and Bangladesh. With over 35 years of distinguished administrative, financial, and infrastructure leadership, he previously served as Vice President & Chief Investment Officer at the Asian Infrastructure Investment Bank (AIIB) in Beijing, Chief Secretary to the Government of Gujarat, and Advisor to the Executive Director at the World Bank Group in Washington, D.C. He holds a PhD in Energy Security and an MBA.",
+      "experiences": [
+        {
+          "role": "Director General (Indian Regional Office)",
+          "company": "New Development Bank (NDB)",
+          "period": "Jun 2022 – Present",
+          "location": "Gandhinagar, Gujarat, India",
+          "url": "https://www.linkedin.com/company/10592972/"
+        },
+        {
+          "role": "Vice President & Chief Investment Officer",
+          "company": "Asian Infrastructure Investment Bank (AIIB)",
+          "period": "Mar 2016 – Mar 2022",
+          "location": "Beijing, China",
+          "url": "https://www.linkedin.com/company/10676179/"
+        },
+        {
+          "role": "Chief Secretary",
+          "company": "Government of Gujarat",
+          "period": "Oct 2014 – May 2015",
+          "location": "Gandhinagar, Gujarat"
+        },
+        {
+          "role": "Additional Chief Secretary (Energy & Petrochemicals / Industries & Mines)",
+          "company": "Government of Gujarat",
+          "period": "Nov 2009 – Oct 2014",
+          "location": "Gandhinagar, Gujarat"
+        },
+        {
+          "role": "Chairman, Standing Committee of the Board of Governors",
+          "company": "Pandit Deendayal Petroleum University (PDPU)",
+          "period": "Oct 2009 – Feb 2016",
+          "location": "Gandhinagar, Gujarat",
+          "url": "https://www.linkedin.com/school/15128970/"
+        },
+        {
+          "role": "Managing Director",
+          "company": "Gujarat State Petroleum Corporation Ltd. (GSPC)",
+          "period": "Oct 2001 – Nov 2009",
+          "location": "Gandhinagar, Gujarat",
+          "url": "https://www.linkedin.com/company/143743/"
+        },
+        {
+          "role": "Advisor to the Executive Director",
+          "company": "World Bank Group",
+          "period": "Jan 1998 – Jan 2001",
+          "location": "Washington, D.C., USA",
+          "url": "https://www.linkedin.com/company/166426/"
+        },
+        {
+          "role": "Director (External Commercial Borrowing)",
+          "company": "Department of Economic Affairs, Ministry of Finance, Govt. of India",
+          "period": "Dec 1994 – Jan 1998",
+          "location": "New Delhi, India"
+        }
+      ],
+      "associatedOrgs": [
+        {
+          "org": "Gujarat Energy Research & Management Institute (GERMI)",
+          "role": "Vice Chairman & Managing Trustee (2009 – 2015)"
+        },
+        {
+          "org": "Gujarat Energy & Infrastructure PSUs",
+          "role": "Former Chairman / Director — GMDC, GSPC, GSPL, GUVNL, GETCO, Torrent Power & Petronet LNG"
+        }
+      ],
+      "contribution": "Spearheaded Gujarat's transformation from an energy-deficient to an energy-surplus state through power sector reforms, Asia's largest integrated Solar Power Park at Charanka, India's first rooftop solar scheme, and a state-wide gas grid. Played a pivotal role in establishing Pandit Deendayal Petroleum University (PDPU) and GERMI, organizing the Vibrant Gujarat Global Investors Summit 2015, and liberalizing External Commercial Borrowing policies at the Ministry of Finance."
+    }
   },
   {
     "id": 32,

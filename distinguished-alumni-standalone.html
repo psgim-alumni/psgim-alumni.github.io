@@ -728,15 +728,84 @@ const ALUMNI_DATA = [
   },
   {
     "id": 31,
-    "name": "MR. JAGATHEESA PANDIAN",
-    "position": "Chief Engineer, Mettur Thermal Projects (TNED) Mettur Dam",
+    "name": "DR. D. J. PANDIAN, IAS",
+    "position": "Director General, New Development Bank (NDB) | Former Chief Secretary, Govt. of Gujarat",
     "description": "MBA 1978 - 1980 / DA Awardee - 2008",
     "year": 2008,
     "batch": "1978 - 1980",
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/Jagatheesa-Pandian-q3gmhx1p9ca3gk0gqebul4gljq7k1anfw7wfezdxss.png",
     "sector": "Public Service & Governance",
     "decade": "1970s",
-    "company": "Mettur Thermal Projects (TNED) Mettur Dam"
+    "company": "New Development Bank (NDB)",
+    "profile": {
+      "about": "Dr. D. J. Pandian (Dharmakkan Jagatheesa Pandian), IAS (1981 batch), is the Director General of the Indian Regional Office of the New Development Bank (NDB), leading high-impact sustainable development projects in India and Bangladesh. With over 35 years of distinguished administrative, financial, and infrastructure leadership, he previously served as Vice President & Chief Investment Officer at the Asian Infrastructure Investment Bank (AIIB) in Beijing, Chief Secretary to the Government of Gujarat, and Advisor to the Executive Director at the World Bank Group in Washington, D.C. He holds a PhD in Energy Security and an MBA.",
+      "experiences": [
+        {
+          "role": "Director General (Indian Regional Office)",
+          "company": "New Development Bank (NDB)",
+          "period": "Jun 2022 – Present",
+          "location": "Gandhinagar, Gujarat, India",
+          "url": "https://www.linkedin.com/company/10592972/"
+        },
+        {
+          "role": "Vice President & Chief Investment Officer",
+          "company": "Asian Infrastructure Investment Bank (AIIB)",
+          "period": "Mar 2016 – Mar 2022",
+          "location": "Beijing, China",
+          "url": "https://www.linkedin.com/company/10676179/"
+        },
+        {
+          "role": "Chief Secretary",
+          "company": "Government of Gujarat",
+          "period": "Oct 2014 – May 2015",
+          "location": "Gandhinagar, Gujarat"
+        },
+        {
+          "role": "Additional Chief Secretary (Energy & Petrochemicals / Industries & Mines)",
+          "company": "Government of Gujarat",
+          "period": "Nov 2009 – Oct 2014",
+          "location": "Gandhinagar, Gujarat"
+        },
+        {
+          "role": "Chairman, Standing Committee of the Board of Governors",
+          "company": "Pandit Deendayal Petroleum University (PDPU)",
+          "period": "Oct 2009 – Feb 2016",
+          "location": "Gandhinagar, Gujarat",
+          "url": "https://www.linkedin.com/school/15128970/"
+        },
+        {
+          "role": "Managing Director",
+          "company": "Gujarat State Petroleum Corporation Ltd. (GSPC)",
+          "period": "Oct 2001 – Nov 2009",
+          "location": "Gandhinagar, Gujarat",
+          "url": "https://www.linkedin.com/company/143743/"
+        },
+        {
+          "role": "Advisor to the Executive Director",
+          "company": "World Bank Group",
+          "period": "Jan 1998 – Jan 2001",
+          "location": "Washington, D.C., USA",
+          "url": "https://www.linkedin.com/company/166426/"
+        },
+        {
+          "role": "Director (External Commercial Borrowing)",
+          "company": "Department of Economic Affairs, Ministry of Finance, Govt. of India",
+          "period": "Dec 1994 – Jan 1998",
+          "location": "New Delhi, India"
+        }
+      ],
+      "associatedOrgs": [
+        {
+          "org": "Gujarat Energy Research & Management Institute (GERMI)",
+          "role": "Vice Chairman & Managing Trustee (2009 – 2015)"
+        },
+        {
+          "org": "Gujarat Energy & Infrastructure PSUs",
+          "role": "Former Chairman / Director — GMDC, GSPC, GSPL, GUVNL, GETCO, Torrent Power & Petronet LNG"
+        }
+      ],
+      "contribution": "Spearheaded Gujarat's transformation from an energy-deficient to an energy-surplus state through power sector reforms, Asia's largest integrated Solar Power Park at Charanka, India's first rooftop solar scheme, and a state-wide gas grid. Played a pivotal role in establishing Pandit Deendayal Petroleum University (PDPU) and GERMI, organizing the Vibrant Gujarat Global Investors Summit 2015, and liberalizing External Commercial Borrowing policies at the Ministry of Finance."
+    }
   },
   {
     "id": 32,
@@ -1110,90 +1179,102 @@ if (typeof module !== 'undefined' && module.exports) {
       let profileSection = '';
       if (a.profile) {
         profileSection = `
-          <!-- About -->
-          <div class="bg-slate-50/90 rounded-2xl p-4 border border-slate-200 text-left">
-            <div class="flex items-center gap-2 mb-2 text-psg-navy font-bold text-xs uppercase tracking-wider">
-              <i data-lucide="user-check" class="w-4 h-4 text-amber-600"></i>
-              <span>About</span>
+          ${a.profile.about ? `
+            <!-- About -->
+            <div class="bg-slate-50/90 rounded-2xl p-4 border border-slate-200 text-left">
+              <div class="flex items-center gap-2 mb-2 text-psg-navy font-bold text-xs uppercase tracking-wider">
+                <i data-lucide="user-check" class="w-4 h-4 text-amber-600"></i>
+                <span>About</span>
+              </div>
+              <p class="text-xs text-slate-700 leading-relaxed font-normal text-justify">
+                ${a.profile.about}
+              </p>
             </div>
-            <p class="text-xs text-slate-700 leading-relaxed font-normal text-justify">
-              ${a.profile.about}
-            </p>
-          </div>
+          ` : ''}
 
-          <!-- Experience & Enterprises -->
-          <div class="bg-white rounded-2xl p-4 border border-slate-200 shadow-2xs text-left">
-            <div class="flex items-center gap-2 mb-2.5 text-psg-navy font-bold text-xs uppercase tracking-wider text-left">
-              <i data-lucide="briefcase" class="w-4 h-4 text-psg-navy"></i>
-              <span>Executive Experience</span>
-            </div>
-            <div class="space-y-2.5 text-left">
-              ${a.profile.experiences.map(exp => `
-                <div class="flex items-start justify-between gap-3 p-3 rounded-xl bg-slate-50 border border-slate-200/80 text-left">
-                  <div class="text-left">
-                    <div class="font-bold text-sm text-psg-navy text-left">${exp.role}</div>
-                    <div class="text-xs font-semibold text-slate-800 text-left">${exp.company}</div>
-                    <div class="text-[11px] text-slate-500 mt-0.5 text-left">${exp.period} &bull; ${exp.location}</div>
+          ${a.profile.experiences && a.profile.experiences.length ? `
+            <!-- Experience & Enterprises -->
+            <div class="bg-white rounded-2xl p-4 border border-slate-200 shadow-2xs text-left">
+              <div class="flex items-center gap-2 mb-2.5 text-psg-navy font-bold text-xs uppercase tracking-wider text-left">
+                <i data-lucide="briefcase" class="w-4 h-4 text-psg-navy"></i>
+                <span>Executive Experience</span>
+              </div>
+              <div class="space-y-2.5 text-left">
+                ${a.profile.experiences.map(exp => `
+                  <div class="flex items-start justify-between gap-3 p-3 rounded-xl bg-slate-50 border border-slate-200/80 text-left">
+                    <div class="text-left">
+                      <div class="font-bold text-sm text-psg-navy text-left">${exp.role}</div>
+                      <div class="text-xs font-semibold text-slate-800 text-left">${exp.company}</div>
+                      <div class="text-[11px] text-slate-500 mt-0.5 text-left">${exp.period} &bull; ${exp.location}</div>
+                    </div>
+                    ${exp.url ? `
+                      <a href="${exp.url}" target="_blank" rel="noopener noreferrer" class="shrink-0 text-[11px] font-bold text-amber-800 bg-amber-50 hover:bg-amber-100 px-2.5 py-1.5 rounded-lg border border-amber-300 inline-flex items-center gap-1 shadow-2xs transition-colors">
+                        <span>Visit</span>
+                        <i data-lucide="external-link" class="w-3 h-3 text-amber-700"></i>
+                      </a>
+                    ` : ''}
                   </div>
-                  ${exp.url ? `
-                    <a href="${exp.url}" target="_blank" rel="noopener noreferrer" class="shrink-0 text-[11px] font-bold text-amber-800 bg-amber-50 hover:bg-amber-100 px-2.5 py-1.5 rounded-lg border border-amber-300 inline-flex items-center gap-1 shadow-2xs transition-colors">
-                      <span>Visit</span>
-                      <i data-lucide="external-link" class="w-3 h-3 text-amber-700"></i>
-                    </a>
-                  ` : ''}
-                </div>
-              `).join('')}
+                `).join('')}
+              </div>
             </div>
-          </div>
+          ` : ''}
 
-          <!-- Associated Organizations -->
-          <div class="bg-white rounded-2xl p-4 border border-slate-200 shadow-2xs text-left">
-            <div class="flex items-center gap-2 mb-2.5 text-psg-navy font-bold text-xs uppercase tracking-wider">
-              <i data-lucide="building-2" class="w-4 h-4 text-psg-navy"></i>
-              <span>Associated Organizations</span>
+          ${a.profile.associatedOrgs && a.profile.associatedOrgs.length ? `
+            <!-- Associated Organizations -->
+            <div class="bg-white rounded-2xl p-4 border border-slate-200 shadow-2xs text-left">
+              <div class="flex items-center gap-2 mb-2.5 text-psg-navy font-bold text-xs uppercase tracking-wider">
+                <i data-lucide="building-2" class="w-4 h-4 text-psg-navy"></i>
+                <span>Associated Organizations</span>
+              </div>
+              <div class="space-y-2">
+                ${a.profile.associatedOrgs.map(org => `
+                  <div class="p-2.5 rounded-xl bg-slate-50 border border-slate-200/80 text-left">
+                    <div class="font-bold text-xs text-slate-900">${org.org}</div>
+                    <div class="text-[11px] text-slate-600 mt-0.5">${org.role}</div>
+                  </div>
+                `).join('')}
+              </div>
             </div>
-            <div class="space-y-2">
-              ${a.profile.associatedOrgs.map(org => `
-                <div class="p-2.5 rounded-xl bg-slate-50 border border-slate-200/80 text-left">
-                  <div class="font-bold text-xs text-slate-900">${org.org}</div>
-                  <div class="text-[11px] text-slate-600 mt-0.5">${org.role}</div>
-                </div>
-              `).join('')}
-            </div>
-          </div>
+          ` : ''}
 
-          <!-- Contribution to Society -->
-          <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200 text-left">
-            <div class="flex items-center gap-2 text-psg-navy font-bold text-xs mb-1.5 uppercase tracking-wider">
-              <i data-lucide="heart-handshake" class="w-4 h-4 text-psg-navy"></i>
-              <span>Contribution to Society</span>
+          ${a.profile.contribution ? `
+            <!-- Contribution to Society -->
+            <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200 text-left">
+              <div class="flex items-center gap-2 text-psg-navy font-bold text-xs mb-1.5 uppercase tracking-wider">
+                <i data-lucide="heart-handshake" class="w-4 h-4 text-psg-navy"></i>
+                <span>Contribution to Society</span>
+              </div>
+              <p class="text-xs text-slate-700 leading-relaxed text-justify">
+                ${a.profile.contribution}
+              </p>
             </div>
-            <p class="text-xs text-slate-700 leading-relaxed text-justify">
-              ${a.profile.contribution}
-            </p>
-          </div>
+          ` : ''}
 
-          <!-- Coimbatore Connect -->
-          <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200 text-left">
-            <div class="flex items-center gap-2 text-psg-navy font-bold text-xs mb-1.5 uppercase tracking-wider">
-              <i data-lucide="map-pin" class="w-4 h-4 text-psg-navy"></i>
-              <span>Coimbatore Connect</span>
+          ${a.profile.coimbatoreConnect ? `
+            <!-- Coimbatore Connect -->
+            <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200 text-left">
+              <div class="flex items-center gap-2 text-psg-navy font-bold text-xs mb-1.5 uppercase tracking-wider">
+                <i data-lucide="map-pin" class="w-4 h-4 text-psg-navy"></i>
+                <span>Coimbatore Connect</span>
+              </div>
+              <p class="text-xs text-slate-700 leading-relaxed text-justify">
+                ${a.profile.coimbatoreConnect}
+              </p>
             </div>
-            <p class="text-xs text-slate-700 leading-relaxed text-justify">
-              ${a.profile.coimbatoreConnect}
-            </p>
-          </div>
+          ` : ''}
 
-          <!-- Voice for the Youth -->
-          <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200 text-left">
-            <div class="flex items-center gap-2 text-psg-navy font-bold text-xs mb-1.5 uppercase tracking-wider">
-              <i data-lucide="sparkles" class="w-4 h-4 text-psg-navy"></i>
-              <span>Voice for the Youth</span>
+          ${a.profile.voiceForYouth ? `
+            <!-- Voice for the Youth -->
+            <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200 text-left">
+              <div class="flex items-center gap-2 text-psg-navy font-bold text-xs mb-1.5 uppercase tracking-wider">
+                <i data-lucide="sparkles" class="w-4 h-4 text-psg-navy"></i>
+                <span>Voice for the Youth</span>
+              </div>
+              <p class="text-xs text-slate-700 leading-relaxed text-justify">
+                ${a.profile.voiceForYouth}
+              </p>
             </div>
-            <p class="text-xs text-slate-700 leading-relaxed text-justify">
-              ${a.profile.voiceForYouth}
-            </p>
-          </div>
+          ` : ''}
         `;
       }
 
