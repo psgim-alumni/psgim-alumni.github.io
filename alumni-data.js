@@ -353,7 +353,7 @@ const ALUMNI_DATA = [
   {
     "id": 12,
     "name": "Dr. Krishnan Dandapani",
-    "position": "Director, College of Business, Dept. of Finance, Florida International University",
+    "position": "Professor of Finance, Florida International University (FIU), Miami",
     "description": "MBA 1975 - 1977 / DA Awardee - 2024",
     "year": 2024,
     "batch": "1975 - 1977",
@@ -362,7 +362,26 @@ const ALUMNI_DATA = [
     "decade": "1970s",
     "company": "Florida International University",
     "profile": {
-      "about": "A 1977 PSGIM alumnus, Dr. Krishnan Dandapani earned his Ph.D. in Finance from Pennsylvania State University and has been Professor of Finance at Florida International University (FIU), Miami, for over 30 years. He is the Editor of the Journal of Emerging Financial Markets, author of multiple finance books, and recipient of Florida's Excellence in Research, Teaching, and Service Awards.",
+      "about": "A 1977 PSGIM alumnus, Dr. Krishnan Dandapani earned his Ph.D. in Finance from Pennsylvania State University and has been a Professor of Finance at Florida International University (FIU), Miami for over four decades. He is the Editor of the Journal of Emerging Financial Markets, author of seminal books including 'The Return Generating Models in Global Finance' and 'Banking in North America', and a two-time recipient of the State of Florida's Excellence in Research and Teaching Awards.",
+      "experiences": [
+        {
+          "role": "Professor of Finance",
+          "company": "Florida International University (FIU)",
+          "period": "Aug 1983 – Present",
+          "location": "Miami, Florida, United States",
+          "url": "https://business.fiu.edu/"
+        }
+      ],
+      "associatedOrgs": [
+        {
+          "org": "Journal of Emerging Financial Markets",
+          "role": "Editor & Founder"
+        },
+        {
+          "org": "Florida International Bankers Association (FIBA)",
+          "role": "Chaired Professorship (2004)"
+        }
+      ],
       "coimbatoreConnect": "Coimbatore's entrepreneurial flavour infuses an entrepreneurial spirit into your thinking, action, and work.",
       "voiceForYouth": "At PSGIM you get the best education you need to succeed, and in Coimbatore you learn to be entrepreneurial. There is nothing one cannot achieve if we focus and work towards it — aim beyond the Moon, look at Mars and beyond."
     }
