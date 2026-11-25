@@ -510,7 +510,63 @@ const ALUMNI_DATA = [
     "decade": "1980s",
     "company": "Indian Audit and Accounts Department (CAG India)",
     "profile": {
-      "about": "A 1982 PSGIM MBA alumnus, Mr. Kesavan Srinivasan began his career at TCS before joining the Indian Audit & Accounts Service (C&AG). With nearly three decades of CXO-level government leadership, he served as Principal Accountant General for Tamil Nadu and Puducherry, Principal Director of the Audit Board for 30+ major PSUs, and spent 6 years as Expert/Advisor to the State Audit Institution of the Sultanate of Oman and the United Nations."
+      "about": "Chairman of UTIITSL focused on enhancing governance and bridging the digital divide, and Senior Advisor at Janaagraha driving systems change in India’s urban sector. Also serves on advisory boards at Jiva Water Devices and NCS SoftSolutions, and as a Distinguished Fellow at AJNIFM. Certified CISA and CIA with decades of experience in public financial management, ESG, and auditing across governments and international organizations including the United Nations.",
+      "experiences": [
+        {
+          "role": "Chairman of the Board",
+          "company": "UTI Infrastructure Technology And Services Limited (UTIITSL)",
+          "period": "Nov 2024 – Present",
+          "location": "Remote",
+          "url": "https://www.utiitsl.com/"
+        },
+        {
+          "role": "Senior Advisor",
+          "company": "Janaagraha",
+          "period": "Sep 2023 – Present",
+          "location": "Chennai, Tamil Nadu, India",
+          "url": "https://www.janaagraha.org/"
+        },
+        {
+          "role": "Distinguished Fellow",
+          "company": "Arun Jaitley National Institute of Financial Management (AJNIFM)",
+          "period": "May 2023 – Present",
+          "location": "Chennai, Tamil Nadu, India",
+          "url": "https://www.ajnifm.ac.in/"
+        },
+        {
+          "role": "Member, International Advisory Board",
+          "company": "PEFA Secretariat",
+          "period": "Dec 2022 – Present",
+          "location": "Remote",
+          "url": "https://www.pefa.org/"
+        },
+        {
+          "role": "Deputy Comptroller & Auditor General (C&AG)",
+          "company": "Indian Audit and Accounts Department (CAG India)",
+          "period": "Dec 2021 – May 2023",
+          "location": "New Delhi, India",
+          "url": "https://cag.gov.in/"
+        },
+        {
+          "role": "Chief Operating Officer",
+          "company": "TamilNadu Infrastructure Fund Management Corporation Ltd. (TNIFMC)",
+          "period": "Apr 2016 – Mar 2019",
+          "location": "Chennai, Tamil Nadu, India",
+          "url": "https://www.tnifmc.com/"
+        },
+        {
+          "role": "Principal Accountant General (Tamil Nadu & Puducherry)",
+          "company": "Indian Audit and Accounts Department (CAG India)",
+          "period": "Feb 2013 – Mar 2016",
+          "location": "Chennai, Tamil Nadu, India"
+        },
+        {
+          "role": "Expert, Supreme Audit Institution",
+          "company": "Government of Sultanate of Oman",
+          "period": "Dec 1999 – Dec 2005",
+          "location": "Oman"
+        }
+      ]
     }
   },
   {
