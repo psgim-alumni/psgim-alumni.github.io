@@ -447,7 +447,22 @@ const ALUMNI_DATA = [
     "decade": "Other",
     "company": "Indian Oil Corporation",
     "profile": {
-      "about": "Joining Indian Oil Corporation (IOCL) in March 1977 after his post-graduation from PSG, Mr. V. K. Jayachandran spent over three decades shaping IOCL's LPG and State Office operations across Tamil Nadu, Kerala, Karnataka, Gujarat, and Mumbai. He was adjudged IOCL's Best General Manager in 2005 and served as Executive Director."
+      "about": "Academically qualified Graduate and PG Diploma holder in Finance Management with 32 years of career success in managing Logistics (Port clearing and Inland transportation), Project Finance, Accounts, and Construction site administration with renowned engineering and manufacturing companies in India and abroad.",
+      "experiences": [
+        {
+          "role": "Logistics Manager",
+          "company": "Dangote Industries Limited",
+          "period": "Jan 2009 – Sep 2021",
+          "location": "Nigeria",
+          "url": "https://www.dangote.com/"
+        },
+        {
+          "role": "Accounting Manager",
+          "company": "Petron Engineering Construction Limited",
+          "period": "Feb 1999 – Apr 2008",
+          "location": "Mumbai, Maharashtra, India"
+        }
+      ]
     }
   },
   {
