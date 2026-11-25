@@ -506,15 +506,73 @@ const ALUMNI_DATA = [
   },
   {
     "id": 20,
-    "name": "Mr. Ranganathan",
-    "position": "COO at Deliver Value.ai, United Kingdom",
+    "name": "Mr. P. S. Ranganathan",
+    "position": "Chief Operating Officer, Deliver Value.ai (UK) | Former Global Head, TCS",
     "description": "MBA / DA Awardee - 2019",
     "year": 2019,
     "batch": "",
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/pic1-q3w2ox61p29g9fhegg903dzubjdhzyl44vugrr2wd8.png",
     "sector": "Finance & Corporate Leadership",
     "decade": "Other",
-    "company": "United Kingdom"
+    "company": "Deliver Value.ai",
+    "profile": {
+      "about": "Mr. P. S. Ranganathan is a seasoned Senior Programme Manager, Business Unit Head, and Global Operations Leader based in the United Kingdom, with a distinguished track record across legal services, banking, insurance, and FTSE-250 corporate sectors. Over more than two decades with Tata Consultancy Services (TCS), he was instrumental in establishing TCS in the UK and delivering multi-million-pound IT transformation and change programmes. Having held senior UK management roles at Cognizant, Covansys (CSC), Xchanging, and Asia Law Exchange, he currently serves as Chief Operating Officer at Deliver Value.ai.",
+      "experiences": [
+        {
+          "role": "Chief Operating Officer (COO)",
+          "company": "Deliver Value.ai",
+          "period": "May 2024 – Present",
+          "location": "United Kingdom"
+        },
+        {
+          "role": "Managing Director & COO",
+          "company": "Asia Law Exchange",
+          "period": "Aug 2017 – Jun 2024",
+          "location": "United Kingdom & Asia"
+        },
+        {
+          "role": "Senior Advisory Consultant",
+          "company": "Changepond Technologies",
+          "period": "2014 – 2017",
+          "location": "United Kingdom",
+          "url": "https://www.changepond.com/"
+        },
+        {
+          "role": "Director & Global Head (Legal Services)",
+          "company": "Tata Consultancy Services (TCS)",
+          "period": "Mar 2005 – Mar 2014",
+          "location": "London, United Kingdom",
+          "url": "https://www.tcs.com/"
+        },
+        {
+          "role": "Senior Vice President",
+          "company": "Xchanging (DXC Technology)",
+          "period": "Mar 2002 – Feb 2005",
+          "location": "London, United Kingdom",
+          "url": "https://www.dxc.com/"
+        },
+        {
+          "role": "Vice President",
+          "company": "Covansys (CSC)",
+          "period": "Jun 2000 – May 2002",
+          "location": "London, United Kingdom"
+        },
+        {
+          "role": "General Manager",
+          "company": "Cognizant Technology Solutions",
+          "period": "Sep 1998 – May 2000",
+          "location": "Manchester, United Kingdom",
+          "url": "https://www.cognizant.com/"
+        },
+        {
+          "role": "Regional Manager",
+          "company": "Tata Consultancy Services (TCS)",
+          "period": "Apr 1988 – Aug 1998",
+          "location": "Manchester, United Kingdom",
+          "url": "https://www.tcs.com/"
+        }
+      ]
+    }
   },
   {
     "id": 21,
