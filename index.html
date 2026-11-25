@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>PSGIM Distinguished Alumni — Year by Year (2003–2026) | PSG Institute of Management</title>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: Inter & Cinzel & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            psg: {
+              navy: '#002147',
+              navyDark: '#00132b',
+              navyLight: '#0d325e',
+              gold: '#D4AF37',
+              goldLight: '#F5E08F',
+              goldDark: '#AA820A',
+              amber: '#FFB606',
+              accent: '#E6A303',
+            }
+          },
+          fontFamily: {
+            cinzel: ['Cinzel', 'serif'],
+            playfair: ['Playfair Display', 'serif'],
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Smooth mobile ergonomics */
+    html {
+      -webkit-tap-highlight-color: transparent;
+    }
+    
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .pb-safe {
+      padding-bottom: env(safe-area-inset-bottom, 16px);
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(100%); }
+      to { transform: translateY(0); }
+    }
+    .animate-slide-up {
+      animation: slideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+  </style>
+</head>
+<body class="bg-slate-100 text-slate-800 font-sans antialiased min-h-screen flex flex-col pb-20 md:pb-0">
+
+  <!-- TOP INSTITUTIONAL BAR: PSG INSTITUTE OF MANAGEMENT -->
+  <div class="bg-psg-navyDark text-white py-1.5 px-3 text-[11px] text-center border-b border-psg-gold/30 flex items-center justify-center gap-2 font-medium">
+    <span class="w-1.5 h-1.5 rounded-full bg-psg-amber animate-pulse"></span>
+    <span class="text-psg-goldLight font-bold">PSG INSTITUTE OF MANAGEMENT:</span>
+    <span class="truncate">Distinguished Alumni Roll of Honour &bull; From Inception (2003–2026)</span>
+  </div>
+
+  <!-- MAIN NAVIGATION BAR (PSGIM - Static top header, does not scroll down) -->
+  <header class="relative z-20 bg-white border-b border-slate-200/90 shadow-xs">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 h-[80px] sm:h-[100px] flex items-center justify-between gap-3">
+      
+      <!-- Official Brand Logo: PSG Institute of Management -->
+      <a href="#" class="flex items-center shrink-0">
+        <img 
+          src="assets/psg-im-official-logo.png" 
+          alt="PSG Institute of Management - PSG College of Technology" 
+          title="PSG Institute of Management"
+          class="h-14 sm:h-20 w-auto object-contain shrink-0 drop-shadow-2xs" 
+        />
+      </a>
+
+      <!-- PSG Centenary 100 Years Logo -->
+      <div class="flex items-center shrink-0 pl-2">
+        <img 
+          src="assets/psg-centenary-100-logo.png" 
+          alt="Celebrating PSG Centenary 100 Years (1926–2026)" 
+          title="Celebrating PSG Centenary 100 Years (1926–2026)"
+          class="h-14 sm:h-20 w-auto object-contain shrink-0 drop-shadow-2xs" 
+        />
+      </div>
+
+    </div>
+  </header>
+
+  <section class="relative bg-psg-navyDark text-white px-3 sm:px-6 pt-6 pb-6 sm:pt-10 sm:pb-8 overflow-hidden">
+    
+    <!-- WATERMARK: Iconic White Dome Gate of PSGIM in background -->
+    <div class="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+      <img 
+        src="assets/psg-im-dome-entrance.png" 
+        alt="" 
+        class="w-full h-full object-cover object-center opacity-15 mix-blend-luminosity filter blur-[0.3px] scale-105"
+      />
+      <!-- Gradient overlay for legibility -->
+      <div class="absolute inset-0 bg-gradient-to-b from-psg-navyDark/90 via-psg-navy/95 to-slate-900/98"></div>
+    </div>
+
+    <!-- WATERMARK: Modern PSGIM Campus in top-right background -->
+    <div class="absolute -right-10 -top-10 w-72 sm:w-96 h-72 sm:h-96 pointer-events-none opacity-[0.05] z-0">
+      <img src="assets/psg-im-campus-aerial.png" alt="" class="w-full h-full object-cover" />
+    </div>
+
+    <div class="max-w-6xl mx-auto relative z-10 text-center">
+      
+      <!-- PSGIM Badge -->
+      <div class="flex items-center justify-center mb-3">
+        <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-psg-gold/40 shadow-inner">
+          <span class="w-2 h-2 rounded-full bg-psg-amber"></span>
+          <span class="text-psg-goldLight text-[11px] sm:text-xs font-bold tracking-wide uppercase">
+            PSG Institute of Management &bull; Roll of Honour
+          </span>
+        </div>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="font-cinzel text-2xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white mb-2 leading-tight">
+        PSGIM Distinguished Alumni <br class="sm:hidden">
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-psg-goldLight via-psg-amber to-amber-200">
+          Year by Year (2003–2026)
+        </span>
+      </h1>
+      
+      <p class="text-xs sm:text-sm text-slate-300 font-light leading-relaxed max-w-2xl mx-auto mb-6">
+        Conferred by <strong>PSG Institute of Management (PSGIM)</strong> to celebrate MBA graduates who have shaped global industries, scaled transformative enterprises, and brought distinction to the alma mater.
+      </p>
+
+
+    </div>
+  </section>
+
+  <!-- STICKY THUMB-FRIENDLY CONTROLS & YEAR SELECTOR (Sticks to top-0 when scrolling) -->
+  <div class="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-xs">
+    
+    <!-- Mobile Search Input -->
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 pt-3 pb-2">
+      <div class="relative flex items-center">
+        <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+        <input 
+          type="text" 
+          id="search-input" 
+          oninput="handleSearch(this.value)"
+          placeholder="Search PSGIM alumni by name, company, batch, or year..." 
+          class="w-full pl-9 pr-8 py-2 rounded-xl bg-slate-100 border border-slate-200 focus:bg-white focus:border-psg-navy focus:ring-2 focus:ring-psg-navy/10 text-xs sm:text-sm outline-none transition-all placeholder:text-slate-400"
+        />
+        <button id="clear-search-btn" onclick="clearSearch()" class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-slate-200 text-slate-600 flex items-center justify-center text-xs">
+          ✕
+        </button>
+      </div>
+    </div>
+
+    <!-- Horizontal Swipeable Year Navigation Ribbon -->
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 pb-2">
+      <div class="flex items-center gap-1.5 overflow-x-auto no-scrollbar scroll-smooth py-0.5" id="year-scroll-track">
+        <button onclick="filterByYear('all')" data-year="all" class="year-pill active shrink-0 px-3 py-1.5 rounded-xl text-xs font-bold transition-all bg-psg-navy text-white shadow-xs">
+          All Years (36)
+        </button>
+        <!-- Populated via script: 2026, 2025, 2024 ... 2003 -->
+      </div>
+    </div>
+
+    <!-- Horizontal Swipeable Domain Filter Chips -->
+    <div class="bg-slate-50 border-t border-slate-100 px-3 sm:px-6 py-2">
+      <div class="max-w-7xl mx-auto flex items-center gap-1.5 overflow-x-auto no-scrollbar" id="sector-chips-track">
+        <button onclick="filterBySector('all')" data-sector="all" class="sector-chip active shrink-0 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white border border-slate-300 text-slate-800 shadow-2xs">
+          All Domains (36)
+        </button>
+        <button onclick="filterBySector('Manufacturing & Infrastructure')" data-sector="Manufacturing & Infrastructure" class="sector-chip shrink-0 px-2.5 py-1 rounded-lg text-[11px] font-medium bg-white/70 border border-slate-200 text-slate-600">
+          Manufacturing (10)
+        </button>
+        <button onclick="filterBySector('Retail, FMCG & Textiles')" data-sector="Retail, FMCG & Textiles" class="sector-chip shrink-0 px-2.5 py-1 rounded-lg text-[11px] font-medium bg-white/70 border border-slate-200 text-slate-600">
+          Retail &amp; Textiles (5)
+        </button>
+        <button onclick="filterBySector('Public Service & Governance')" data-sector="Public Service & Governance" class="sector-chip shrink-0 px-2.5 py-1 rounded-lg text-[11px] font-medium bg-white/70 border border-slate-200 text-slate-600">
+          Public Service (6)
+        </button>
+        <button onclick="filterBySector('Finance & Corporate Leadership')" data-sector="Finance & Corporate Leadership" class="sector-chip shrink-0 px-2.5 py-1 rounded-lg text-[11px] font-medium bg-white/70 border border-slate-200 text-slate-600">
+          Finance &amp; Banking (4)
+        </button>
+        <button onclick="filterBySector('Technology & Digital')" data-sector="Technology & Digital" class="sector-chip shrink-0 px-2.5 py-1 rounded-lg text-[11px] font-medium bg-white/70 border border-slate-200 text-slate-600">
+          Technology (3)
+        </button>
+        <button onclick="filterBySector('Education & Academia')" data-sector="Education & Academia" class="sector-chip shrink-0 px-2.5 py-1 rounded-lg text-[11px] font-medium bg-white/70 border border-slate-200 text-slate-600">
+          Education (3)
+        </button>
+        <button onclick="filterBySector('Media, Sports & Entertainment')" data-sector="Media, Sports & Entertainment" class="sector-chip shrink-0 px-2.5 py-1 rounded-lg text-[11px] font-medium bg-white/70 border border-slate-200 text-slate-600">
+          Media &amp; Sports (2)
+        </button>
+      </div>
+    </div>
+
+    <!-- Active Count & Reset -->
+    <div class="px-3 sm:px-6 py-1.5 flex items-center justify-between text-[11px] text-slate-500 border-t border-slate-100 bg-white">
+      <div>
+        Showing <strong class="text-psg-navy font-bold" id="filtered-count">36</strong> PSGIM Honorees
+        <span id="active-year-label" class="ml-1 text-slate-400"></span>
+      </div>
+      <button onclick="resetAllFilters()" id="reset-btn" class="hidden text-rose-600 font-semibold flex items-center gap-1 active:scale-95">
+        <i data-lucide="rotate-ccw" class="w-3 h-3"></i> Reset Filters
+      </button>
+    </div>
+
+  </div>
+
+  <!-- MAIN ALUMNI LIST CONTAINER (PSGIM HONOREES) -->
+  <main class="flex-grow max-w-7xl mx-auto px-3 sm:px-6 py-4 w-full">
+    <div id="alumni-display-container">
+      <!-- Populated dynamically via JavaScript -->
+    </div>
+  </main>
+
+
+
+  <!-- MOBILE BOTTOM SHEET MODAL (PSGIM BRANDED) -->
+  <div id="alumni-modal" class="fixed inset-0 z-50 hidden bg-black/60 backdrop-blur-xs flex items-end sm:items-center justify-center overscroll-contain">
+    
+    <!-- Dialog Sheet Container -->
+    <div class="relative bg-white rounded-t-3xl sm:rounded-2xl max-w-xl w-full max-h-[88vh] overflow-y-auto overscroll-contain shadow-2xl border-t sm:border border-slate-200 animate-slide-up p-5 sm:p-6 pb-safe">
+      
+      <!-- Drag handle indicator for mobile sheet -->
+      <div class="w-12 h-1 bg-slate-300 rounded-full mx-auto mb-4 sm:hidden"></div>
+
+      <!-- Close button -->
+      <button onclick="closeModal()" class="absolute right-4 top-4 w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center transition-colors z-20">
+        ✕
+      </button>
+
+      <!-- Injected modal body -->
+      <div id="modal-content" class="relative z-10"></div>
+
+    </div>
+  </div>
+
+  <!-- FIXED MOBILE BOTTOM QUICK BAR (THUMB OPERATION - PSGIM) -->
+  <div class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200 px-4 py-2 pb-safe flex items-center justify-around text-[10px] font-semibold text-slate-600 shadow-lg">
+    
+    <button onclick="scrollToTop()" class="flex flex-col items-center gap-0.5 active:scale-95 text-psg-navy">
+      <i data-lucide="arrow-up" class="w-4 h-4 text-psg-navy"></i>
+      <span>Top</span>
+    </button>
+
+    <button onclick="focusSearch()" class="flex flex-col items-center gap-0.5 active:scale-95">
+      <i data-lucide="search" class="w-4 h-4"></i>
+      <span>Search</span>
+    </button>
+
+    <button onclick="quickJumpYear()" class="flex flex-col items-center gap-0.5 active:scale-95 text-amber-600 font-bold">
+      <i data-lucide="calendar" class="w-4 h-4 text-amber-600"></i>
+      <span>Years</span>
+    </button>
+  </div>
+
+  <!-- FOOTER: PURE PSG INSTITUTE OF MANAGEMENT -->
+  <footer class="relative bg-psg-navyDark text-slate-400 pt-10 pb-24 md:pb-12 text-xs border-t border-slate-800 overflow-hidden">
+    
+    <!-- FULL-COVER WATERMARK BACKGROUND: 100% Edge-to-Edge Coverage -->
+    <div class="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+      <img 
+        src="assets/psg-im-dome-entrance.png" 
+        alt="" 
+        class="w-full h-full object-cover object-center opacity-10 mix-blend-luminosity filter blur-[0.4px] scale-105" 
+      />
+      <!-- Seamless gradient overlay ensuring 100% full coverage with zero visible seams -->
+      <div class="absolute inset-0 bg-gradient-to-b from-psg-navyDark/95 via-psg-navyDark/90 to-slate-950/98"></div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 text-center space-y-3 relative z-10">
+      
+      <!-- Official Branding in Footer -->
+      <div class="inline-flex items-center justify-center gap-4 sm:gap-6 bg-white px-5 py-2.5 rounded-2xl shadow-md border border-slate-200/80 mb-2">
+        <img 
+          src="assets/psg-im-official-logo.png" 
+          alt="PSG Institute of Management" 
+          title="PSG Institute of Management"
+          class="h-9 sm:h-11 w-auto object-contain" 
+        />
+        <div class="h-7 w-px bg-slate-200"></div>
+        <img 
+          src="assets/psg-centenary-100-logo.png" 
+          alt="Celebrating PSG Centenary 100 Years" 
+          title="Celebrating PSG Centenary 100 Years"
+          class="h-9 sm:h-11 w-auto object-contain" 
+        />
+      </div>
+
+      <!-- College Full Name -->
+      <h3 class="font-cinzel font-bold text-white text-base sm:text-lg tracking-wide">
+        PSG Institute of Management
+      </h3>
+
+      <p class="text-[11px] text-slate-400 max-w-md mx-auto">
+        Avinashi Road, Peelamedu, Coimbatore, Tamil Nadu 641004 &bull; Celebrating 24 Years of Inception (2003–2026).
+      </p>
+
+      <div class="pt-2 text-[10px] text-slate-500 flex items-center justify-center gap-3">
+        <span>&copy; 2026 PSG Institute of Management (PSGIM)</span>
+        <span>&bull;</span>
+        <a href="https://psgim.ac.in" target="_blank" class="hover:text-amber-400 transition-colors">psgim.ac.in</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPT: DATASET -->
+  <script src="alumni-data.js"></script>
+
+  <!-- SCRIPT: APP CONTROLLER -->
+  <script>
+    // State
+    let selectedYear = 'all';
+    let selectedSector = 'all';
+    let searchQuery = '';
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initYearPills();
+      renderAlumni();
+      lucide.createIcons();
+    });
+
+    // Unique sorted years
+    function getUniqueYears() {
+      const years = Array.from(new Set(ALUMNI_DATA.map(a => a.year))).filter(Boolean);
+      return years.sort((a, b) => b - a);
+    }
+
+    // Initialize Year Navigation Pills
+    function initYearPills() {
+      const track = document.getElementById('year-scroll-track');
+      const years = getUniqueYears();
+
+      years.forEach(yr => {
+        const count = ALUMNI_DATA.filter(a => a.year === yr).length;
+        const btn = document.createElement('button');
+        btn.onclick = () => filterByYear(yr);
+        btn.setAttribute('data-year', yr);
+        btn.className = 'year-pill shrink-0 px-3 py-1.5 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 active:scale-95 transition-all';
+        btn.innerHTML = `${yr} <span class="text-[10px] opacity-70">(${count})</span>`;
+        track.appendChild(btn);
+      });
+    }
+
+    // Filter Year
+    function filterByYear(yr) {
+      selectedYear = yr;
+      
+      document.querySelectorAll('.year-pill').forEach(pill => {
+        const pYear = pill.getAttribute('data-year');
+        if (pYear == yr) {
+          pill.className = 'year-pill active shrink-0 px-3 py-1.5 rounded-xl text-xs font-bold bg-psg-navy text-white shadow-xs';
+          pill.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        } else {
+          pill.className = 'year-pill shrink-0 px-3 py-1.5 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700';
+        }
+      });
+
+      const label = document.getElementById('active-year-label');
+      if (label) {
+        label.textContent = yr === 'all' ? '' : `in Year ${yr}`;
+      }
+
+      renderAlumni();
+    }
+
+    // Filter Sector
+    function filterBySector(sector) {
+      selectedSector = sector;
+
+      document.querySelectorAll('.sector-chip').forEach(chip => {
+        const s = chip.getAttribute('data-sector');
+        if (s === sector) {
+          chip.className = 'sector-chip active shrink-0 px-2.5 py-1 rounded-lg text-[11px] font-bold bg-psg-navy text-white shadow-xs';
+          chip.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        } else {
+          chip.className = 'sector-chip shrink-0 px-2.5 py-1 rounded-lg text-[11px] font-medium bg-white/70 border border-slate-200 text-slate-600';
+        }
+      });
+
+      renderAlumni();
+    }
+
+    // Search
+    function handleSearch(val) {
+      searchQuery = val.trim().toLowerCase();
+      document.getElementById('clear-search-btn').classList.toggle('hidden', searchQuery.length === 0);
+      renderAlumni();
+    }
+
+    function clearSearch() {
+      document.getElementById('search-input').value = '';
+      searchQuery = '';
+      document.getElementById('clear-search-btn').classList.add('hidden');
+      renderAlumni();
+    }
+
+    function resetAllFilters() {
+      selectedYear = 'all';
+      selectedSector = 'all';
+      searchQuery = '';
+      document.getElementById('search-input').value = '';
+      document.getElementById('clear-search-btn').classList.add('hidden');
+      filterByYear('all');
+      filterBySector('all');
+    }
+
+    function focusSearch() {
+      const input = document.getElementById('search-input');
+      input.focus();
+      input.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function quickJumpYear() {
+      const track = document.getElementById('year-scroll-track');
+      track.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    // Filter Computation
+    function getFilteredList() {
+      return ALUMNI_DATA.filter(item => {
+        if (selectedYear !== 'all' && item.year != selectedYear) return false;
+        if (selectedSector !== 'all' && item.sector !== selectedSector) return false;
+        if (searchQuery) {
+          const haystack = `${item.name} ${item.position} ${item.description} ${item.company} ${item.batch} ${item.year}`.toLowerCase();
+          if (!haystack.includes(searchQuery)) return false;
+        }
+        return true;
+      });
+    }
+
+    // Sector badge style
+    function getSectorBadge(sector) {
+      switch(sector) {
+        case 'Manufacturing & Infrastructure':
+          return 'bg-blue-50 text-blue-700 border-blue-200';
+        case 'Retail, FMCG & Textiles':
+          return 'bg-emerald-50 text-emerald-700 border-emerald-200';
+        case 'Public Service & Governance':
+          return 'bg-purple-50 text-purple-700 border-purple-200';
+        case 'Finance & Corporate Leadership':
+          return 'bg-amber-50 text-amber-700 border-amber-200';
+        case 'Technology & Digital':
+          return 'bg-cyan-50 text-cyan-700 border-cyan-200';
+        case 'Education & Academia':
+          return 'bg-indigo-50 text-indigo-700 border-indigo-200';
+        case 'Media, Sports & Entertainment':
+          return 'bg-rose-50 text-rose-700 border-rose-200';
+        default:
+          return 'bg-slate-50 text-slate-700 border-slate-200';
+      }
+    }
+
+    // Render logic
+    function renderAlumni() {
+      const filtered = getFilteredList();
+      const container = document.getElementById('alumni-display-container');
+      
+      document.getElementById('filtered-count').textContent = filtered.length;
+      const isFiltered = (selectedYear !== 'all' || selectedSector !== 'all' || searchQuery.length > 0);
+      document.getElementById('reset-btn').classList.toggle('hidden', !isFiltered);
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div class="bg-white rounded-2xl p-8 text-center border border-slate-200 my-6">
+            <div class="w-12 h-12 rounded-full bg-amber-50 text-amber-600 flex items-center justify-center mx-auto mb-3">
+              <i data-lucide="search-x" class="w-6 h-6"></i>
+            </div>
+            <div class="font-bold text-sm text-slate-800 mb-1">No Honorees Found</div>
+            <p class="text-xs text-slate-500 mb-4">No PSGIM alumni match your active search or filter.</p>
+            <button onclick="resetAllFilters()" class="px-4 py-2 rounded-xl bg-psg-navy text-white text-xs font-semibold">
+              Reset Filters
+            </button>
+          </div>
+        `;
+        lucide.createIcons();
+        return;
+      }
+
+      // Group by year
+      const grouped = {};
+      filtered.forEach(a => {
+        const y = a.year || 'Legacy';
+        if (!grouped[y]) grouped[y] = [];
+        grouped[y].push(a);
+      });
+
+      const sortedYears = Object.keys(grouped).sort((a, b) => b - a);
+
+      let html = `<div class="space-y-6">`;
+
+      sortedYears.forEach(yr => {
+        const list = grouped[yr];
+        html += `
+          <div id="year-section-${yr}" class="scroll-mt-32">
+            
+            <!-- Sticky Year Header on Mobile -->
+            <div class="flex items-center justify-between mb-3 pt-2">
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-psg-amber"></span>
+                <h3 class="font-cinzel text-lg sm:text-xl font-bold text-psg-navy">
+                  Award Year ${yr}
+                </h3>
+                <span class="text-[11px] px-2 py-0.5 rounded-full bg-slate-200 text-slate-700 font-semibold">
+                  ${list.length} ${list.length === 1 ? 'Honoree' : 'Honorees'}
+                </span>
+              </div>
+              <div class="text-[10px] text-slate-400 font-medium">
+                PSGIM DA &bull; ${yr}
+              </div>
+            </div>
+
+            <!-- Mobile-first Cards Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
+              ${list.map(a => renderMobileCard(a)).join('')}
+            </div>
+
+          </div>
+        `;
+      });
+
+      html += `</div>`;
+      container.innerHTML = html;
+      lucide.createIcons();
+    }
+
+    // Render single mobile-optimized card with PSGIM focus
+    function renderMobileCard(a) {
+      const badgeStyle = getSectorBadge(a.sector);
+      const initials = a.name.replace(/^(Mr\.|Ms\.|Mrs\.|Dr\.)\s*/i, '').split(' ').map(n => n[0]).slice(0, 2).join('');
+
+      return `
+        <div class="relative group bg-white rounded-2xl p-3.5 border border-slate-200/90 shadow-2xs hover:shadow-md transition-all active:bg-slate-50/50 flex flex-col justify-between cursor-pointer overflow-hidden" onclick="openModal(${a.id})">
+          
+          <div class="relative z-10 flex items-start gap-3">
+            
+            <!-- Alumnus Image (Touch-friendly 68px) -->
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden bg-slate-100 border border-slate-200 shrink-0 relative">
+              <img 
+                src="${a.image}" 
+                alt="${a.name}" 
+                class="w-full h-full object-cover object-top"
+                loading="lazy"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              />
+              <div class="w-full h-full hidden items-center justify-center bg-gradient-to-br from-psg-navy to-slate-800 text-psg-gold font-cinzel font-bold text-sm">
+                ${initials}
+              </div>
+            </div>
+
+            <!-- Alumnus Info -->
+            <div class="flex-1 min-w-0">
+              
+              <!-- Badges Row: Year + MBA Batch -->
+              <div class="flex items-center gap-1.5 flex-wrap mb-1">
+                <span class="text-[10px] font-bold px-1.5 py-0.2 rounded bg-amber-100 text-amber-900 border border-amber-300">
+                  DA ${a.year}
+                </span>
+                ${a.batch ? `
+                  <span class="text-[9px] font-semibold px-1.5 py-0.2 rounded bg-psg-navy/10 text-psg-navy font-mono">
+                    MBA ${a.batch}
+                  </span>
+                ` : ''}
+              </div>
+
+              <!-- Name -->
+              <h4 class="font-bold text-sm text-psg-navy leading-snug line-clamp-1">
+                ${a.name}
+              </h4>
+
+              <!-- Designation & Company -->
+              <p class="text-[11px] text-slate-600 line-clamp-2 mt-0.5 leading-snug">
+                ${a.position}
+              </p>
+
+
+
+            </div>
+
+          </div>
+
+          <!-- Bottom Micro Bar -->
+          <div class="relative z-10 mt-2.5 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px]">
+            <span class="font-semibold px-1.5 py-0.5 rounded border ${badgeStyle} truncate max-w-[170px]">
+              ${a.sector}
+            </span>
+            <span class="text-psg-navy font-bold flex items-center gap-0.5 text-[11px] text-amber-700">
+              <span>View Profile</span>
+              <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+            </span>
+          </div>
+
+        </div>
+      `;
+    }
+
+    // Modal Drawer logic (Bottom sheet on phone - PSGIM exclusive)
+    function openModal(id) {
+      const a = ALUMNI_DATA.find(item => item.id === id);
+      if (!a) return;
+
+      const modal = document.getElementById('alumni-modal');
+      const content = document.getElementById('modal-content');
+      const badgeStyle = getSectorBadge(a.sector);
+
+      // Extended Biographical Profile (for honorees like Mr. T. Rajkumar)
+      let profileSection = '';
+      if (a.profile) {
+        profileSection = `
+          <!-- About -->
+          <div class="bg-slate-50/90 rounded-2xl p-4 border border-slate-200 text-left">
+            <div class="flex items-center gap-2 mb-2 text-psg-navy font-bold text-xs uppercase tracking-wider">
+              <i data-lucide="user-check" class="w-4 h-4 text-amber-600"></i>
+              <span>About</span>
+            </div>
+            <p class="text-xs text-slate-700 leading-relaxed font-normal text-justify">
+              ${a.profile.about}
+            </p>
+          </div>
+
+          <!-- Experience & Enterprises -->
+          <div class="bg-white rounded-2xl p-4 border border-slate-200 shadow-2xs text-left">
+            <div class="flex items-center gap-2 mb-2.5 text-psg-navy font-bold text-xs uppercase tracking-wider text-left">
+              <i data-lucide="briefcase" class="w-4 h-4 text-psg-navy"></i>
+              <span>Executive Experience</span>
+            </div>
+            <div class="space-y-2.5 text-left">
+              ${a.profile.experiences.map(exp => `
+                <div class="flex items-start justify-between gap-3 p-3 rounded-xl bg-slate-50 border border-slate-200/80 text-left">
+                  <div class="text-left">
+                    <div class="font-bold text-sm text-psg-navy text-left">${exp.role}</div>
+                    <div class="text-xs font-semibold text-slate-800 text-left">${exp.company}</div>
+                    <div class="text-[11px] text-slate-500 mt-0.5 text-left">${exp.period} &bull; ${exp.location}</div>
+                  </div>
+                  ${exp.url ? `
+                    <a href="${exp.url}" target="_blank" rel="noopener noreferrer" class="shrink-0 text-[11px] font-bold text-amber-800 bg-amber-50 hover:bg-amber-100 px-2.5 py-1.5 rounded-lg border border-amber-300 inline-flex items-center gap-1 shadow-2xs transition-colors">
+                      <span>Visit</span>
+                      <i data-lucide="external-link" class="w-3 h-3 text-amber-700"></i>
+                    </a>
+                  ` : ''}
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- Associated Organizations -->
+          <div class="bg-white rounded-2xl p-4 border border-slate-200 shadow-2xs text-left">
+            <div class="flex items-center gap-2 mb-2.5 text-psg-navy font-bold text-xs uppercase tracking-wider">
+              <i data-lucide="building-2" class="w-4 h-4 text-psg-navy"></i>
+              <span>Associated Organizations</span>
+            </div>
+            <div class="space-y-2">
+              ${a.profile.associatedOrgs.map(org => `
+                <div class="p-2.5 rounded-xl bg-slate-50 border border-slate-200/80 text-left">
+                  <div class="font-bold text-xs text-slate-900">${org.org}</div>
+                  <div class="text-[11px] text-slate-600 mt-0.5">${org.role}</div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+
+          <!-- Contribution to Society -->
+          <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200 text-left">
+            <div class="flex items-center gap-2 text-psg-navy font-bold text-xs mb-1.5 uppercase tracking-wider">
+              <i data-lucide="heart-handshake" class="w-4 h-4 text-psg-navy"></i>
+              <span>Contribution to Society</span>
+            </div>
+            <p class="text-xs text-slate-700 leading-relaxed text-justify">
+              ${a.profile.contribution}
+            </p>
+          </div>
+
+          <!-- Coimbatore Connect -->
+          <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200 text-left">
+            <div class="flex items-center gap-2 text-psg-navy font-bold text-xs mb-1.5 uppercase tracking-wider">
+              <i data-lucide="map-pin" class="w-4 h-4 text-psg-navy"></i>
+              <span>Coimbatore Connect</span>
+            </div>
+            <p class="text-xs text-slate-700 leading-relaxed text-justify">
+              ${a.profile.coimbatoreConnect}
+            </p>
+          </div>
+
+          <!-- Voice for the Youth -->
+          <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200 text-left">
+            <div class="flex items-center gap-2 text-psg-navy font-bold text-xs mb-1.5 uppercase tracking-wider">
+              <i data-lucide="sparkles" class="w-4 h-4 text-psg-navy"></i>
+              <span>Voice for the Youth</span>
+            </div>
+            <p class="text-xs text-slate-700 leading-relaxed text-justify">
+              ${a.profile.voiceForYouth}
+            </p>
+          </div>
+        `;
+      }
+
+      content.innerHTML = `
+        <div class="text-center sm:text-left">
+          
+          <div class="flex flex-col sm:flex-row items-center sm:items-start gap-4 mb-3.5">
+            
+            <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl overflow-hidden bg-slate-100 border-2 border-psg-gold shadow-md shrink-0">
+              <img src="${a.image}" alt="${a.name}" class="w-full h-full object-cover object-top" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(a.name)}&background=002147&color=D4AF37'" />
+            </div>
+
+            <div class="flex-1">
+              
+              <div class="flex items-center justify-center sm:justify-start gap-1.5 flex-wrap mb-1.5">
+                <span class="px-2 py-0.5 rounded-full bg-amber-100 text-amber-900 border border-amber-300 font-bold text-xs flex items-center gap-1">
+                  <i data-lucide="award" class="w-3 h-3 text-amber-700"></i> PSGIM Awardee &bull; ${a.year}
+                </span>
+                ${a.batch ? `
+                  <span class="px-2 py-0.5 rounded-full bg-psg-navy text-white text-xs font-semibold">
+                    MBA ${a.batch}
+                  </span>
+                ` : ''}
+              </div>
+
+              <h2 class="font-cinzel text-lg sm:text-xl font-bold text-psg-navy leading-tight">
+                ${a.name}
+              </h2>
+
+              <p class="text-xs text-slate-700 font-medium mt-1 leading-snug">
+                ${a.position}
+              </p>
+
+              <div class="mt-2">
+                <span class="text-[10px] uppercase font-bold px-2 py-0.5 rounded border ${badgeStyle}">
+                  ${a.sector}
+                </span>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- All Content Boxes Stack with completely uniform spacing -->
+          <div class="space-y-3.5">
+
+            <!-- Official PSGIM Citation Block -->
+            <div class="bg-slate-50/90 rounded-xl p-3.5 border border-slate-100 text-xs text-slate-700 leading-relaxed italic text-left">
+              &ldquo;Recognized for distinguished accomplishments, exemplary leadership, and significant contribution to industry, academia, and society, bringing immense honor to the PSG Institute of Management.&rdquo;
+            </div>
+
+            ${profileSection}
+
+            <!-- Institution Tag -->
+            <div class="bg-psg-navy/5 rounded-xl p-3 border border-psg-navy/10 text-left flex items-center gap-2.5">
+              <div class="w-9 h-9 rounded-lg bg-white border border-slate-200/90 p-1 flex items-center justify-center shrink-0 shadow-2xs">
+                <img src="assets/psg-im-official-logo.png" alt="PSGIM Logo" class="w-full h-full object-contain" />
+              </div>
+              <div class="flex-1 text-[11px] text-slate-700">
+                <strong>PSG Institute of Management:</strong> Department of Management Sciences &bull; Conferred annually since inception (2003).
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      `;
+
+      modal.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+      lucide.createIcons();
+    }
+
+    function closeModal() {
+      document.getElementById('alumni-modal').classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+
+    // Native Web Share API
+    function shareProfile(name, year) {
+      const decodedName = decodeURIComponent(name);
+      if (navigator.share) {
+        navigator.share({
+          title: `${decodedName} — PSGIM Distinguished Alumnus (${year})`,
+          text: `Honoring ${decodedName}, PSG Institute of Management Distinguished Alumnus Awardee (${year}).`,
+          url: window.location.href,
+        }).catch(() => {});
+      } else {
+        navigator.clipboard.writeText(`${decodedName} — PSGIM Distinguished Alumnus (${year}) ${window.location.href}`);
+        alert('Profile link copied to clipboard!');
+      }
+    }
+
+    // Close on outside tap
+    document.getElementById('alumni-modal').addEventListener('click', (e) => {
+      if (e.target.id === 'alumni-modal') closeModal();
+    });
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+  </script>
+
+</body>
+</html>
