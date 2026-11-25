@@ -404,7 +404,40 @@ const ALUMNI_DATA = [
     "company": "Ltd,Coimbatore",
     "profile": {
       "about": "An alumnus of PSG CAS and PSGIM, Mr. Jayakumar Ramdass is Managing Director of Mahendra Submersible Pumps Pvt. Ltd. and Mahendra Spinning Mills Pvt. Ltd., Coimbatore, exporting pumps to 25 countries across 4 continents. He is Past President of SIEMA, Past Chairman of CII Coimbatore Zone, and helped bring ELCOT IT Park and direct international flights to Coimbatore.",
-      "contribution": "Former National President of Round Table India and Chairman of the Round Table India Foundation, funding community service projects across India. He serves on the Advisory Councils of PSGIM and several colleges, and is President of the Coimbatore District Tennis Association."
+      "contribution": "Former National President of Round Table India and Chairman of the Round Table India Foundation, funding community service projects across India. He serves on the Advisory Councils of PSGIM and several colleges, and is President of the Coimbatore District Tennis Association.",
+      "experiences": [
+        {
+          "role": "Managing Director",
+          "company": "Mahendra Submersible Pumps Pvt. Ltd.",
+          "period": "Present",
+          "location": "Coimbatore, Tamil Nadu, India",
+          "url": "https://mahendrapumps.com/"
+        },
+        {
+          "role": "Managing Director",
+          "company": "Mahendra Spinning Mills Pvt. Ltd.",
+          "period": "1991 – Present",
+          "location": "Coimbatore, Tamil Nadu, India"
+        }
+      ],
+      "associatedOrgs": [
+        {
+          "org": "Confederation of Indian Industry (CII)",
+          "role": "Past Chairman, Coimbatore Zone & Member, Southern Region / TN State Council"
+        },
+        {
+          "org": "The Southern India Engineering Manufacturers' Association (SIEMA)",
+          "role": "Past President"
+        },
+        {
+          "org": "The Institute of Indian Foundrymen (Coimbatore Chapter)",
+          "role": "Chairman"
+        },
+        {
+          "org": "Coimbatore Management Association (CMA)",
+          "role": "Vice President"
+        }
+      ]
     }
   },
   {
