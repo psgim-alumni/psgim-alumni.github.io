@@ -55,17 +55,32 @@ const ALUMNI_DATA = [
   {
     "id": 2,
     "name": "Mr. N. Viswanath",
-    "position": "Director - RMKV",
+    "position": "Director, RmKV Group",
     "description": "MBA 1992 - 1994 / DA Awardee - 2026",
     "year": 2026,
     "batch": "1992 - 1994",
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/P-3-rtq5nbnxr32312izq41fgkxpdvqydl57gzrbyj9dgc.png",
     "sector": "Retail, FMCG & Textiles",
     "decade": "1990s",
-    "company": "RMKV",
+    "company": "RmKV Group",
     "profile": {
-      "about": "With an engineering degree and a post-graduation in management from PSG, Mr. N. Viswanath is a Director at RmKV Group, a 90-year-old heritage silk sari brand with stores across Tirunelveli, Chennai, Coimbatore, Bangalore, and an online portal. He leads RmKV's ongoing innovation in colours, designs, and handwoven fabrics crafted by master weavers.",
-      "contribution": "Committed to societal benefits and weaver welfare, RmKV works closely at the grassroots weaver level to preserve traditional art and handloom heritage while fostering an employee-centric culture. Mr. Viswanath is also an active member of the Rotary Club, Tirunelveli West."
+      "about": "With an engineering background and an MBA from PSG (1992–1994), Mr. N. Viswanath is a Director at the RmKV Group, carrying forward a 90-year-old heritage textile and retail brand. Under his leadership, RmKV has pioneered groundbreaking design innovations in handwoven silk saris, expanding its retail presence across Chennai, Coimbatore, Bengaluru, and Tirunelveli alongside a global e-commerce portal.",
+      "experiences": [
+        {
+          "role": "Director",
+          "company": "RmKV Group",
+          "period": "1994 – Present",
+          "location": "Chennai & Tirunelveli, Tamil Nadu, India",
+          "url": "https://www.rmkv.com/"
+        }
+      ],
+      "associatedOrgs": [
+        {
+          "org": "Rotary Club of Tirunelveli West",
+          "role": "Member & Community Patron"
+        }
+      ],
+      "contribution": "Deeply committed to weaver welfare and community empowerment, he works directly with master weavers at RmKV's design studios to preserve traditional Indian handloom arts, sustain artisan livelihoods, and champion employee-centric development."
     }
   },
   {
@@ -83,7 +98,7 @@ const ALUMNI_DATA = [
   {
     "id": 4,
     "name": "Mr. George Thayyil",
-    "position": "Managing Director - Johns Group of Companies",
+    "position": "Managing Director, Johns Group of Companies",
     "description": "MBA 1991 - 1993 / DA Awardee - 2026",
     "year": 2026,
     "batch": "1991 - 1993",
@@ -92,8 +107,34 @@ const ALUMNI_DATA = [
     "decade": "1990s",
     "company": "Johns Group of Companies",
     "profile": {
-      "about": "A third-generation entrepreneur from Alleppey, Mr. George Thayyil completed his MBA at PSG in 1993 and internationalized his family business, Johns Umbrella Mart, expanding into Russia, China, Sri Lanka, and the UAE. In 2000, he diversified into the automobile sector with a Honda Motorcycles and Scooters India (HMSI) dealership. He also established India's largest quality umbrella manufacturing unit in Shengottai, Tamil Nadu in 2008.",
-      "contribution": "An active member of social service organizations including Round Table India, Lions, and Rotary. Under his chairmanship, the Round Table of Alleppey won numerous awards for community service and club activities."
+      "about": "An alumnus of PSGIM (MBA 1991–1993), Mr. George Thayyil is a third-generation entrepreneur who internationalized the iconic Johns Umbrella brand, expanding its market footprint across Russia, China, Sri Lanka, and the UAE. In 2000, he diversified into the automotive domain with an authorized dealership for Honda Motorcycles & Scooters India (HMSI). In 2008, he established India's largest quality umbrella manufacturing plant in Shengottai, Tamil Nadu.",
+      "experiences": [
+        {
+          "role": "Managing Director",
+          "company": "Johns Group of Companies / Johns Umbrella Mart",
+          "period": "1993 – Present",
+          "location": "Alappuzha, Kerala & Shengottai, Tamil Nadu",
+          "url": "https://johnsumbrella.info/"
+        },
+        {
+          "role": "Dealer Principal / Managing Director",
+          "company": "HMSI Dealership (Honda Motorcycles & Scooters India)",
+          "period": "2000 – Present",
+          "location": "Kerala, India",
+          "url": "https://www.honda2wheelersindia.com/"
+        }
+      ],
+      "associatedOrgs": [
+        {
+          "org": "Round Table of Alleppey",
+          "role": "Past Chairman & Award Recipient for Community Service"
+        },
+        {
+          "org": "Rotary & Lions Clubs",
+          "role": "Active Member & Social Service Patron"
+        }
+      ],
+      "contribution": "Active in community service through Round Table India, Rotary, and Lions Club, spearheading social service projects across healthcare, disaster relief, and youth empowerment in Kerala and Tamil Nadu."
     }
   },
   {
