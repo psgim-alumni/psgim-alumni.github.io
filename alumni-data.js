@@ -416,14 +416,14 @@ const ALUMNI_DATA = [
           "company": "New Development Bank (NDB)",
           "period": "Jun 2022 – Present",
           "location": "Gandhinagar, Gujarat, India",
-          "url": "https://www.linkedin.com/company/10592972/"
+          "url": "https://www.ndb.int/"
         },
         {
           "role": "Vice President & Chief Investment Officer",
           "company": "Asian Infrastructure Investment Bank (AIIB)",
           "period": "Mar 2016 – Mar 2022",
           "location": "Beijing, China",
-          "url": "https://www.linkedin.com/company/10676179/"
+          "url": "https://www.aiib.org/"
         },
         {
           "role": "Chief Secretary",
@@ -442,21 +442,21 @@ const ALUMNI_DATA = [
           "company": "Pandit Deendayal Petroleum University (PDPU)",
           "period": "Oct 2009 – Feb 2016",
           "location": "Gandhinagar, Gujarat",
-          "url": "https://www.linkedin.com/school/15128970/"
+          "url": "https://www.pdeu.ac.in/"
         },
         {
           "role": "Managing Director",
           "company": "Gujarat State Petroleum Corporation Ltd. (GSPC)",
           "period": "Oct 2001 – Nov 2009",
           "location": "Gandhinagar, Gujarat",
-          "url": "https://www.linkedin.com/company/143743/"
+          "url": "https://gspcgroup.com/"
         },
         {
           "role": "Advisor to the Executive Director",
           "company": "World Bank Group",
           "period": "Jan 1998 – Jan 2001",
           "location": "Washington, D.C., USA",
-          "url": "https://www.linkedin.com/company/166426/"
+          "url": "https://www.worldbank.org/"
         },
         {
           "role": "Director (External Commercial Borrowing)",
