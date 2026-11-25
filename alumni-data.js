@@ -441,14 +441,68 @@ const ALUMNI_DATA = [
   {
     "id": 19,
     "name": "Mr. Ranjith Nair",
-    "position": "Vice President, South East Asia, Air Liquide",
+    "position": "CEO, Gulf Cryo | Former COO, Air Liquide Advanced Materials (USA)",
     "description": "MBA 1995 - 1997 / DA Awardee - 2020",
     "year": 2020,
     "batch": "1995 - 1997",
     "image": "https://psgmaa.com/wp-content/uploads/elementor/thumbs/pic2-q3w30cvcuhx1imvdoe7lfi3qib09ndzjphl4yy4gnw.png",
     "sector": "Manufacturing & Infrastructure",
     "decade": "1990s",
-    "company": "Air Liquide"
+    "company": "Gulf Cryo",
+    "profile": {
+      "about": "An alumnus of PSGIM (MBA 1995–1997), Mr. Ranjith Nair is an accomplished Global C-Suite Executive and Board Member with over 28 years of proven leadership across Fortune 500, multinational, and JV corporations with multi-billion-dollar P&L accountability. Currently the Chief Executive Officer of Gulf Cryo, he previously served as Global Chief Operating Officer of Air Liquide Advanced Materials in the United States and Vice President of Air Liquide’s Industrial Merchant Business Line for Asia Pacific (overseeing 13 countries). He is a specialist in industrial gases, electronic advanced materials, energy transition, M&A, and establishing Centers of Excellence across the US, Middle East, and Asia.",
+      "experiences": [
+        {
+          "role": "Chief Executive Officer (CEO)",
+          "company": "Gulf Cryo",
+          "period": "Oct 2025 – Present",
+          "location": "Middle East",
+          "url": "https://gulfcryo.com/"
+        },
+        {
+          "role": "Global Chief Operating Officer (COO)",
+          "company": "Air Liquide Advanced Materials",
+          "period": "Jan 2024 – Sep 2025",
+          "location": "United States",
+          "url": "https://www.airliquide.com/"
+        },
+        {
+          "role": "Vice President, Industrial Merchant Business Line (Asia Pacific)",
+          "company": "Air Liquide",
+          "period": "Jul 2021 – Jan 2024",
+          "location": "Singapore",
+          "url": "https://www.airliquide.com/"
+        },
+        {
+          "role": "Vice President, Industrial Merchant (South East Asia & Taiwan)",
+          "company": "Air Liquide",
+          "period": "Aug 2019 – Jul 2021",
+          "location": "Singapore",
+          "url": "https://www.airliquide.com/"
+        },
+        {
+          "role": "Director: Industrial Strategy, Op. Excellence & Transformation (Africa, Middle East & India)",
+          "company": "Air Liquide",
+          "period": "Aug 2016 – Jul 2019",
+          "location": "Dubai, United Arab Emirates",
+          "url": "https://www.airliquide.com/"
+        },
+        {
+          "role": "Managing Director / CEO (UAE & Iraq)",
+          "company": "Air Liquide",
+          "period": "Mar 2013 – Jul 2016",
+          "location": "Dubai, United Arab Emirates",
+          "url": "https://www.airliquide.com/"
+        },
+        {
+          "role": "General Manager: Engineering & Business Development (ME & Africa)",
+          "company": "Linde / Praxair JV",
+          "period": "Jul 1997 – Oct 2009",
+          "location": "United Arab Emirates",
+          "url": "https://www.linde.com/"
+        }
+      ]
+    }
   },
   {
     "id": 20,
